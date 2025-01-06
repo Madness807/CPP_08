@@ -33,7 +33,7 @@ void test_vector() {
 void test_list() {
     std::list<int> numbers;
     for (int i = 0; i < 5; ++i) {
-        numbers.push_back(i); // [0, 1, 2, 3, 4]
+        numbers.push_back(i); 
     }
 
     std::cout << "List contains: ";
